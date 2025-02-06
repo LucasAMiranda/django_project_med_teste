@@ -10,3 +10,11 @@ class ProfissionalSaude(models.Model):
 
     def __str__(self):
         return self.nome_completo
+
+
+class Consulta(models.Model):
+    data_consulta = models.DateTimeField()
+    profissional = models.ForeignKey(ProfissionalSaude, on_delete=models.CASCADE, related_name="consultas")
+
+    def __str__(self):
+        return f"{self.data_consulta} - {self.profissional.nome_completo}"
