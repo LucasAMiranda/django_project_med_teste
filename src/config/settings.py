@@ -107,6 +107,16 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Bloqueia scripts maliciosos e ataques de injeção
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+# Proteção CSRF
+CSRF_COOKIE_SECURE = True
+
+# Headers de segurança adicionais
+X_FRAME_OPTIONS = 'DENY'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
