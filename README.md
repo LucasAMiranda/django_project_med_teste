@@ -15,8 +15,10 @@ git clone https://github.com/LucasAMiranda/django_project_med_teste.git |
 cd django_project_med 
 
 2️⃣ Configurar o ambiente virtual com Poetry**
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python3 - 
+
 Linux: sudo apt install poetry
+
 outros: pip install poetry (precisa ter o python instalado no seu pc)
 **obs**: Se já tiver instalado o poetry só rodar o comando no terminal ou CMD: "poetry install" para instalar as dependências do projeto.
 
