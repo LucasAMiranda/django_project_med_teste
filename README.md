@@ -20,7 +20,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 Linux: sudo apt install poetry
 
 outros: pip install poetry (precisa ter o python instalado no seu pc)
-**obs**: Se já tiver instalado o poetry só rodar o comando no terminal ou CMD: "poetry install" para instalar as dependências do projeto.
+**obs**: Se já tiver instalado o poetry só rodar o comando no Terminal ou CMD: "poetry install" para instalar as dependências do projeto.
 
 3️⃣ Criar o banco de dados e definir variáveis de ambiente**
 Crie um arquivo .env na raiz do projeto e adicione:
