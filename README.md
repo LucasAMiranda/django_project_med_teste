@@ -64,6 +64,7 @@ A interface do Django Rest Framework pode ser acessada em:
 
 ## **📜 Endpoints Disponíveis**
 🔹 Profissionais de Saúde
+
 Método	Endpoint	Descrição
 GET	/api/profissionais/	Lista todos os profissionais |
 POST	/api/profissionais/	Cadastra um novo profissional |
@@ -71,6 +72,7 @@ PUT	/api/profissionais/{id}/	Edita um profissional |
 DELETE	/api/profissionais/{id}/	Remove um profissional
 
 🔹 Consultas Médicas
+
 Método	Endpoint	Descrição
 GET	/api/consultas/	Lista todas as consultas
 POST	/api/consultas/	Cadastra uma nova consulta
