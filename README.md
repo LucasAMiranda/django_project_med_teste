@@ -36,17 +36,18 @@ Para iniciar o banco de dados PostgreSQL:
 docker-compose up -d
 
 ## **Rodar o Projeto**
-1️⃣ Aplicar as migrações do banco de dados
+1️⃣ Aplicar as migrações do banco de dados:
 poetry run python manage.py migrate
 
-2️⃣ Criar um superusuário para acessar o Django Admin
+2️⃣ Criar um superusuário para acessar o Django Admin:
 poetry run python manage.py createsuperuser
 
-3️⃣ Rodar o servidor
+3️⃣ Rodar o servidor:
 poetry run python manage.py runserver
 
-4️⃣ Rodar os Testes
+4️⃣ Rodar os Testes:
 poetry run python manage.py test
+
 Se tudo estiver correto, a saída será algo assim:
 
 Creating test database...
