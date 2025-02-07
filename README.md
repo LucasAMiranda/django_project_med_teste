@@ -24,6 +24,7 @@ outros: pip install poetry (precisa ter o python instalado no seu pc)
 
 3️⃣ Criar o banco de dados e definir variáveis de ambiente**
 Crie um arquivo .env na raiz do projeto e adicione:
+
 POSTGRES_DB=django_db
 
 POSTGRES_USER=django_user
