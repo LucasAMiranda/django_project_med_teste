@@ -1,5 +1,7 @@
 from rest_framework import serializers
 from .models import ProfissionalSaude, Consulta
+from django.utils.html import strip_tags
+
 
 class ProfissionalSaudeSerializer(serializers.ModelSerializer):
     class Meta:
