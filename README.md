@@ -90,7 +90,7 @@ DELETE	/api/consultas/{id}/	Remove uma consulta
     Django Rest Framework
     PostgreSQL 14.15
     Docker & Docker Compose 🐳
-    Poetry 1.8.4 (Gerenciador de dependências)
+    Poetry 1.1.12 (Gerenciador de dependências)
 
 📂 Estrutura do Projeto
 
