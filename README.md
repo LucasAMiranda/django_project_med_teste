@@ -74,9 +74,9 @@ DELETE	/api/profissionais/{id}/	Remove um profissional
 🔹 Consultas Médicas
 
 Método	Endpoint	Descrição
-GET	/api/consultas/	Lista todas as consultas
-POST	/api/consultas/	Cadastra uma nova consulta
-PUT	/api/consultas/{id}/	Edita uma consulta
+GET	/api/consultas/	Lista todas as consultas |
+POST	/api/consultas/	Cadastra uma nova consulta |
+PUT	/api/consultas/{id}/	Edita uma consulta |
 DELETE	/api/consultas/{id}/	Remove uma consulta
 
 🏗 Arquitetura e Tecnologias Utilizadas
